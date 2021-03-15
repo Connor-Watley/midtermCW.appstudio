@@ -3,7 +3,7 @@ let bucketList = ["skydiving", "visit europe"]
 let newItem = ''
 let moreData = "yes"
 
-while (moreData ==== "yes"){
+while (moreData === "yes"){
 
     if(userChoice = 1) {
         for (i = 0; i < bucketList.length; i ++) {
