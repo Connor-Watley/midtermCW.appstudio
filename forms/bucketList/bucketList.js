@@ -1,6 +1,6 @@
 
 let bucketList = ["skydiving", "visit europe"]
-let newItem = ''
+
 let moreData = "yes"
 
 while (moreData === "yes"){
@@ -11,10 +11,12 @@ while (moreData === "yes"){
         for (var i = 0; i < bucketList.length; i++) {
             console.log(bucketList[i])
             }
-        } else {
-            newItem = prompt("Enter the item you would like to add")
-            bucketList.push(newItem)
-            }
+    else if(userChoice = "add") {
+        let newItem = prompt("Enter the item you would like to add")
+        bucketList.push(newItem)
+    }
+        
+
         
 moreData = prompt("enter yes to continue")
 }
