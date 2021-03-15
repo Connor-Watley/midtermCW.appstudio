@@ -11,7 +11,7 @@ while (moreData === "yes"){
         for (var i = 0; i < bucketList.length; i++) {
             console.log(bucketList[i])
             }
-    else if(userChoice = "add") {
+    } else if(userChoice = "add") {
         let newItem = prompt("Enter the item you would like to add")
         bucketList.push(newItem)
     }
